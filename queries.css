@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+.div1{
+    font-size: large;
+    margin-left: 350px;
+    background-color: rgb(108, 169, 250);
+    margin-top: 150px;
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+}
+.div2{
+    margin-top: 50px;
+}
+.div3{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: large;
+    background-color: rgb(250, 252, 152);
+}
+.div4{
+    margin-top: 50px;
+    margin-left: 10px;
+   
+}

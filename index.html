@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LOGIN FORM</title>
+        
+        <link rel="stylesheet" type="text/css" href="index.css" >
+        <script>
+            function check(){
+                let usname = document.getElementById("uname").value;
+                let passw = document.getElementById("pass").value;
+                if(usname == "" || passw == "") {
+                    alert("All the fields are not filled");
+                    return false;
+                }
+            }
+        </script>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+        <div class="container">
+            <span class="div-1">  <img src="https://tse4.mm.bing.net/th?id=OIP.4oviXq2osm3IlH6kbQenFAHaE-&pid=Api&P=0&w=269&h=182" width = "200px"></span>
+            <span class="div-2"><span>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</span> <span class = 'name'>(AUTONOMOUS)</span></span>
+            <div class="div-3">VISHNUPUR,BHIMAVARAM ,WEST GODAVARI DISTRICT - 534202</div>
+            <span class = "div-4">Ph:08816-230087,258664&nbsp&nbsp&nbspEmail : info@svecw.edu.in,principal@svecw.edu.in</span>
+            <hr size = "10">
+         </div>  
+        <form class="sample3" action = "Control"   onsubmit ="return check()" method="post">
+            <div class="dee">
+            <img class = "image" src="http://im.rediff.com/money/2011/may/23bschool8.jpg" width = 100px height = 80px>
+            <br></div><br>
+            <!--<label > &nbsp;&nbsp;&nbsp;&nbsp;IDENTITY  : </label>&nbsp;&nbsp;
+            <input id="identity" type="text" name='t3'><br>-->
+            <br><label> &nbsp;&nbsp;&nbsp; USERNAME : </label>
+            <input id= "uname" type="text" name='t1'><br><br>
+            <label > &nbsp;&nbsp;&nbsp; PASSWORD : </label>
+            <input id= "pass" type="password" name='t2'><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+            
+            <input class = "name2" type="submit" value="LOGIN">
+            
+            <pre></pre>
+           <div class="dee1" >
+            <br><br>
+           </div>
+        </form>
+      <!-- <img class="image2" src = "placement_icon.jpg" width = 100% height = 25%> -->
+    </body>
+</html>
